@@ -12,7 +12,7 @@ To run a specific version of Node-RED, check [available tags](https://hub.docker
 docker-compose up -d --build
 ```
 
-### Run run
+### Run
 
 ```
 docker-compose up -d
