@@ -10,7 +10,7 @@ services:
       args:
         - NODERED_VERSION=${NODERED_VERSION:-latest}
     
-    image: node-red:${NODERED_VERSION:-latest}
+    #image: node-red:${NODERED_VERSION:-latest}
     container_name: nodered
     ports:
       - 1880:1880
